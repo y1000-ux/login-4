@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forgot pass</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="auth-container">
+            <div class="auth-card">
+            <h2>Forgot Password?</h2>
+            <p class="auth-subtitle">Enter your email address to receive a reset link.</p>
+
+            <div class="alert alert-success" style="display: none;">
+                Success! Check your email for the reset link.
+            </div>
+
+            <div class="alert alert-error" style="display: none;">
+                Oops! That email address was not found.
+            </div>
+
+            <form action="#" method="POST">
+                <div class="input-group">
+                <label for ="email">Email Address</label>
+                <input type="email" id="email" name="email" required placeholder="email">
+                </div>
+                <button class= "submit-btn">Send Reset Link</button>
+            </form>
+            <div class="auth-footer">
+                <p>Remembered your password? <a href="login.html">Sign in</a></p>
+            </div>
+
+        </div>
+    </body>
+</html>
